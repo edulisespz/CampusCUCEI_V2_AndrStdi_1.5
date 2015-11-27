@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cuceimovile.campuscucei_v2" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivityPrincipal"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity_two_modulos" />
+        <activity android:name=".AppClassVideo.Activity_three_videos" />
+        <activity
+            android:name=".AndroidAR.activity.Demo"
+            android:screenOrientation="landscape" />
+        <activity android:name=".AndroidAR.activity.SensorsActivity" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cuceimovile.campuscucei_v2.MainActivityPrincipal" />
+        </activity>
+        <activity
+            android:name=".viewModulos"
+            android:label="@string/title_activity_view_modulos"
+            android:parentActivityName=".Activity_two_modulos" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cuceimovile.campuscucei_v2.Activity_two_modulos" />
+        </activity>
+        <activity
+            android:name=".ModulosView"
+            android:label="@string/title_activity_modulos_view"
+            android:parentActivityName=".Activity_two_modulos" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cuceimovile.campuscucei_v2.Activity_two_modulos" />
+        </activity>
+    </application>
+
+</manifest>

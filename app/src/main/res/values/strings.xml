@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CampusCUCEI_V2</string>
+    <string name="google_places_api_key">AIzaSyC5mTsDhjayzCqXH87ggEYsfswR1cStfX8</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">MapCUCEI</string>
+    <string name="title_activity_view_modulos">viewModulos</string>
+    <string name="title_activity_modulos_view">ModulosView</string>
+</resources>
