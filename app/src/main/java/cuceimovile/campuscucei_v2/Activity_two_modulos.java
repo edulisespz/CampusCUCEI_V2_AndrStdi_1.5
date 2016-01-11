@@ -91,6 +91,7 @@ public class Activity_two_modulos extends AppCompatActivity {
                 ,"Modulo K","Modulo L","Modulo M","Modulo N","Modulo O","Modulo Otro","Modulo P"
                 ,"Modulo Q","Modulo R","Modulo S","Modulo T","Modulo U","Modulo V","Modulo W","Modulo X","Modulo Z"};
 
+
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.modulos_list_item,listaMod){
 
             @Override
