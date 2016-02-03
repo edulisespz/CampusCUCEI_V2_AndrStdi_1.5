@@ -107,6 +107,8 @@ public class SensorsActivity extends Activity implements SensorEventListener, Lo
             sensorMgr.registerListener(this, sensorGrav, SensorManager.SENSOR_DELAY_UI);
             sensorMgr.registerListener(this, sensorMag, SensorManager.SENSOR_DELAY_UI);
 
+            // TODO: VER LOS PUTOS PERMISOS
+
             locationMgr = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
             locationMgr.requestLocationUpdates(LocationManager.GPS_PROVIDER, MIN_TIME, MIN_DISTANCE, this);
 

@@ -2,340 +2,32 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="166e458ee3b5fb5fcff0f936df3f3a788e6c54f3">
-        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-0fb2150b7689e703f584b90aeb6e3237ecd4b150.jar" />
-    </item>
-    <item
-        jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="98137c4d12c50923f5809852b1ef4d1c4e162081">
-        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-1d322fa6a7f44df807e113ebe2cca5072d89b670.jar" />
-    </item>
-    <item
-        jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="42a1ee578b62fd1bd28b3307a679dc9ba0791587">
-        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-bdefa8632f1e26ef62f7534fd07d6e4ce3287555.jar" />
-    </item>
-    <item
-        jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="77a9dcb5f8b1dba36aacaa9c150eb0942dbea158">
-        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-44b84d021dab7f6e516fdc8dc674f73323f21f5e.jar" />
-    </item>
-    <item
-        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="c5cafb324568d954780abb858c25db7ce675ab3c">
-        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-cbe34116eefb111cdfcbbdb1ea77e5a5bc6e0f06.jar" />
-    </item>
-    <item
-        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="c0c912d58c9468b1f9d9769c8975afdf2c85d681">
-        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-4240b87aa5c7b8532fe1d5ad6bff833011d08aba.jar" />
-    </item>
-    <item
-        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="0124ce31248c0e8acfa2b28283c6d1a4d76e73d2">
-        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-cb0cf131c6b4155dd6f3b2a2a35d50fe2319b80e.jar" />
-    </item>
-    <item
-        jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="c0c912d58c9468b1f9d9769c8975afdf2c85d681">
-        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-e39bcee44ae62d2e859e24c5e86139d62819beff.jar" />
-    </item>
-    <item
-        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
-        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-7ad54432eb990b2b64117cf8bb310ee648bb5a16.jar" />
-    </item>
-    <item
-        jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="2491ae1b2a848af1f4f0c795f3117c1bd6a1989f">
-        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-827e9ca4a0b79262498043e2da397603e636e5f4.jar" />
-    </item>
-    <item
-        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="130b32ed466fa0f63efd4c7d6250ccd2ed506790">
-        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-1e1b6cd9608e0970dc7602c177ee4b1cfdb968b5.jar" />
-    </item>
-    <item
-        jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="c2ac04c5b232f6f0658ee4f1c13be09cd76406e2">
-        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-43f7b61fcc90afc8a3acc44de58d237daf81aeee.jar" />
-    </item>
-    <item
-        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="42a1ee578b62fd1bd28b3307a679dc9ba0791587">
-        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-71514e21a05356a10ee8cd513c4eb838f29393d2.jar" />
-    </item>
-    <item
-        jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="c756d14e99d39471e99013a1e8fd2f3813ed42bf">
-        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-00bdb996edd24034d731508d64fb4bc74ee827f8.jar" />
-    </item>
-    <item
-        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="2e24e5f1b11170163028277de63f709e42525db4">
-        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-6ec2f006e8a88e476e0ec9f4dd573bd623dbf7a4.jar" />
-    </item>
-    <item
-        jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="0124ce31248c0e8acfa2b28283c6d1a4d76e73d2">
-        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-b81b2280239e6bf1b049a1eb31c62e574080b018.jar" />
-    </item>
-    <item
-        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="2491ae1b2a848af1f4f0c795f3117c1bd6a1989f">
-        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-152f12b37c84903c264774b6740a7f5c5a8f9717.jar" />
-    </item>
-    <item
-        jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="adebe28e0c0c05d34a3bfd76f3275bf4d8ff87b6">
-        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-7edcd963d3cc557be47948ff64c0b6fc7a5dacc3.jar" />
-    </item>
-    <item
-        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="b99f0b78bbcb76b915bc6529a83b65d4d46990dd">
-        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-c3cf2d8d3378acab4ded3ddc78d5e31da6f56cb2.jar" />
-    </item>
-    <item
-        jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="e23ea11124bb700eeddd4ab7aa848c615f493850">
-        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-495b243a793ace48479759b9652d25d5193b82a4.jar" />
-    </item>
-    <item
-        jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="1ff30fa49c07a08c3035d7218a3efebf5680d522">
-        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-ef65d899c63254f82dea12d62fc93bab652c20a5.jar" />
-    </item>
-    <item
-        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="edea92852b40eee716e910af8dad9eeaa58fb0e1">
-        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-3547ac4ca184ec70bc9a2a861e6b87c1fcc66e41.jar" />
-    </item>
-    <item
-        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="e23ea11124bb700eeddd4ab7aa848c615f493850">
-        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-1e00c1b616617662045a310212633e6c60a285f7.jar" />
-    </item>
-    <item
-        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="77a9dcb5f8b1dba36aacaa9c150eb0942dbea158">
-        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-26a4898b177c1a707a0b75450224abe0bca933f9.jar" />
-    </item>
-    <item
-        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
-        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-a3ddd79a8e9bec0be0b5afb862124221216c1dcf.jar" />
-    </item>
-    <item
-        jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="edea92852b40eee716e910af8dad9eeaa58fb0e1">
-        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-1750dea8cee9139e3134d8a5154b31ea814eb187.jar" />
-    </item>
-    <item
-        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="cb6fab7a71fa9ec1f483d44c5fca65ab469d8aca">
-        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-5dfc261fe2d3f745b9033d4102905b88756663f3.jar" />
-    </item>
-    <item
-        jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
-        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-88cac8c6aa7dfa473249261ee55d89eac41fed8a.jar" />
-    </item>
-    <item
-        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="c756d14e99d39471e99013a1e8fd2f3813ed42bf">
-        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-178a4fe3cf6fae0bbbefb55546de822ea371f01b.jar" />
-    </item>
-    <item
-        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="d11330ea68c0d964d30d5caed1f27e6b1488b189">
-        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-e7c00451b9cc3a64043792e827c1b4ff31afb632.jar" />
-    </item>
-    <item
-        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="adebe28e0c0c05d34a3bfd76f3275bf4d8ff87b6">
-        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-d0b88d4eff9f094ca0ff5f80f4258ddb711d22b6.jar" />
-    </item>
-    <item
-        jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="2e24e5f1b11170163028277de63f709e42525db4">
-        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-f57b442f546f2c83863d92f46fd229a32d571c9e.jar" />
-    </item>
-    <item
-        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\libs\internal_impl-22.2.0.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
-        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-949d985a7f958fa6a210bf6b79e71f6507e13d29.jar" />
-    </item>
-    <item
-        jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="c5cafb324568d954780abb858c25db7ce675ab3c">
-        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-675a3b4728874cb087a90916f4437eedc3f2865c.jar" />
-    </item>
-    <item
-        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="c2ac04c5b232f6f0658ee4f1c13be09cd76406e2">
-        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-059921d6651cb7457157a5aecbf79160b311c1a9.jar" />
-    </item>
-    <item
-        jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="b99f0b78bbcb76b915bc6529a83b65d4d46990dd">
-        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-5292d9baf2d6cd0541219de3418d7148ce2a549f.jar" />
-    </item>
-    <item
-        jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\libs\internal_impl-22.2.0.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
-        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-15a2025ba6169f89fb26fcca22118647c00a697d.jar" />
-    </item>
-    <item
-        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="4a135d56554069e5d0ff80e3220e887e57146ee5">
-        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-c9ad8d86a7bd77b1033b784acd9fd90a81fa8384.jar" />
-    </item>
-    <item
-        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.8.0\jars\classes.jar"
+        jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.8.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.0"
         sha1="6e85edfc9b5346d216e50ccef1f8e825504144a3">
-        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-7529cf60626754c0852fd5fe4b6f8df01b8e046a.jar" />
+        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-a93fec01b198fae61a5288125e6763427ee821f9.jar" />
     </item>
     <item
-        jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jar="C:\Users\edgarulises\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
         jumboMode="false"
         revision="23.0.0"
-        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
-        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0-4bf3c47f5c843c94d79c8903dc1fc2057ab18d43.jar" />
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.0-fd6837ea10ce832d93453aa60c29e11ddaedc3e2.jar" />
     </item>
     <item
-        jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.8.0\jars\classes.jar"
+        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.1.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.0"
-        sha1="d11330ea68c0d964d30d5caed1f27e6b1488b189">
-        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-da215732dc70f5cdc6c8bec1a375943e1e0d791d.jar" />
+        sha1="3c729e6d76a36c5dc27e6a4c4009296f49eaa88a">
+        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-dd3241e9a7fe07c23b1145c86044df4ef6746bde.jar" />
     </item>
     <item
-        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.8.0\jars\classes.jar"
+        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\8.1.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.0"
-        sha1="1ff30fa49c07a08c3035d7218a3efebf5680d522">
-        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-4f3d8dc6039c04f64c316c06afd2ccb097c1cccf.jar" />
-    </item>
-    <item
-        jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
-        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-a5dc0ae692f42d28963dc8d1b0e9a3d14dcd40fe.jar" />
-    </item>
-    <item
-        jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
-        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-bef000696be29ae27f4ca3b96c16b1710bd9d60a.jar" />
-    </item>
-    <item
-        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="98137c4d12c50923f5809852b1ef4d1c4e162081">
-        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-9627fdf316e28fa34e4b2a19841f60d4f27d9118.jar" />
-    </item>
-    <item
-        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
-        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-1620062d3bbae89f65e6ece53b4b760bb15d313d.jar" />
-    </item>
-    <item
-        jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="cb6fab7a71fa9ec1f483d44c5fca65ab469d8aca">
-        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-cf8dd76d2aed81f5486bb3c3616ae2d7b31ff527.jar" />
-    </item>
-    <item
-        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
-        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0-475643575f9c6051585f6190aa7d001a76d87e6b.jar" />
+        sha1="3178362320bcf51228835b60ff978efadfd1f783">
+        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-5b19432c1a44dfe61d112dc6a0ca3db5cd3a1ef8.jar" />
     </item>
     <item
         jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.8.0\jars\classes.jar"
@@ -345,6 +37,27 @@
         <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-b6cdf336849c379e4327877b50e36554b0663ca4.jar" />
     </item>
     <item
+        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-0a5f0ae715a829b27012affb237503d235db8709.jar" />
+    </item>
+    <item
+        jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="1ff30fa49c07a08c3035d7218a3efebf5680d522">
+        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-ef65d899c63254f82dea12d62fc93bab652c20a5.jar" />
+    </item>
+    <item
+        jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="2491ae1b2a848af1f4f0c795f3117c1bd6a1989f">
+        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-827e9ca4a0b79262498043e2da397603e636e5f4.jar" />
+    </item>
+    <item
         jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.8.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.0"
@@ -352,11 +65,53 @@
         <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-fabb21dbc5f676267ec330104c6eea082611e831.jar" />
     </item>
     <item
-        jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.8.0\jars\classes.jar"
+        jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.8.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.0"
-        sha1="6e85edfc9b5346d216e50ccef1f8e825504144a3">
-        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-a93fec01b198fae61a5288125e6763427ee821f9.jar" />
+        sha1="0124ce31248c0e8acfa2b28283c6d1a4d76e73d2">
+        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-b81b2280239e6bf1b049a1eb31c62e574080b018.jar" />
+    </item>
+    <item
+        jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="42a1ee578b62fd1bd28b3307a679dc9ba0791587">
+        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-bdefa8632f1e26ef62f7534fd07d6e4ce3287555.jar" />
+    </item>
+    <item
+        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="2a7e47da654546f9457deb6132364f1bf33a1857">
+        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-3f864a01afbb8195fcb5756b6981b4926d154e3b.jar" />
+    </item>
+    <item
+        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0-475643575f9c6051585f6190aa7d001a76d87e6b.jar" />
+    </item>
+    <item
+        jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-88cac8c6aa7dfa473249261ee55d89eac41fed8a.jar" />
+    </item>
+    <item
+        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="997773777cf3904c11d6764fe3b7668538220e49">
+        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-ad911b4f4b5aa7268423667a1caf9c7eddb13821.jar" />
+    </item>
+    <item
+        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="d93480da1d303122ee67dc3bc23e6297bdef9951">
+        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-27f1de63a4581828123eb5da58e43bc8e422fb7d.jar" />
     </item>
     <item
         jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.8.0\jars\classes.jar"
@@ -366,11 +121,263 @@
         <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-1a6d0ec9944b3aad4f7ab6c141634d07ec861a62.jar" />
     </item>
     <item
-        jar="C:\Users\edgarulises\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
+        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.1.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.0"
-        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
-        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.0-fd6837ea10ce832d93453aa60c29e11ddaedc3e2.jar" />
+        sha1="482de223655d06253cc6a4955d653f8994169500">
+        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-893406c9d7a96c2dc3c4ada104d802516c192684.jar" />
+    </item>
+    <item
+        jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
+        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-bef000696be29ae27f4ca3b96c16b1710bd9d60a.jar" />
+    </item>
+    <item
+        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="95758a2905669affbffc5ddd262921d375674fad">
+        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-105d7f70cb1252be54bb538134e9ca4684d5d767.jar" />
+    </item>
+    <item
+        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
+        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-1620062d3bbae89f65e6ece53b4b760bb15d313d.jar" />
+    </item>
+    <item
+        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="d294caf562c4c678b2ef351662a0ca6f1a4d06c0">
+        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-3b361613e18b4b57b900bd42200b6111b08c0ed3.jar" />
+    </item>
+    <item
+        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="82825756edeeb3b56b15e73b2edd56e93da5a444">
+        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-a1aac40b08081de994de23c61fad594d8acdc677.jar" />
+    </item>
+    <item
+        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="97f3b099801a9ad9d70e835b9125273e986eb68d">
+        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-e5e65bcddc186f7b280e926ffd562ad023f56216.jar" />
+    </item>
+    <item
+        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="993834cb17d07d51b92db89d2c330243592ebf77">
+        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-b742c860d9103877d12cc6e06b0272a0ac8f46d0.jar" />
+    </item>
+    <item
+        jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="e23ea11124bb700eeddd4ab7aa848c615f493850">
+        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-495b243a793ace48479759b9652d25d5193b82a4.jar" />
+    </item>
+    <item
+        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="3b05c18f60969ecc2ba49c0409c4b96be2d9cb0c">
+        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-683b84e6c7ed488706c889a489391d710178718e.jar" />
+    </item>
+    <item
+        jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="b99f0b78bbcb76b915bc6529a83b65d4d46990dd">
+        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-5292d9baf2d6cd0541219de3418d7148ce2a549f.jar" />
+    </item>
+    <item
+        jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="2e24e5f1b11170163028277de63f709e42525db4">
+        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-f57b442f546f2c83863d92f46fd229a32d571c9e.jar" />
+    </item>
+    <item
+        jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-a5dc0ae692f42d28963dc8d1b0e9a3d14dcd40fe.jar" />
+    </item>
+    <item
+        jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="d11330ea68c0d964d30d5caed1f27e6b1488b189">
+        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-da215732dc70f5cdc6c8bec1a375943e1e0d791d.jar" />
+    </item>
+    <item
+        jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0-4bf3c47f5c843c94d79c8903dc1fc2057ab18d43.jar" />
+    </item>
+    <item
+        jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="c2ac04c5b232f6f0658ee4f1c13be09cd76406e2">
+        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-43f7b61fcc90afc8a3acc44de58d237daf81aeee.jar" />
+    </item>
+    <item
+        jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="edea92852b40eee716e910af8dad9eeaa58fb0e1">
+        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-1750dea8cee9139e3134d8a5154b31ea814eb187.jar" />
+    </item>
+    <item
+        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-949d985a7f958fa6a210bf6b79e71f6507e13d29.jar" />
+    </item>
+    <item
+        jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-15a2025ba6169f89fb26fcca22118647c00a697d.jar" />
+    </item>
+    <item
+        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="17449c47df35c754b257532052f1270c444f7993">
+        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-b7391cc1d1907b2fb221c0e008c501cf2711510a.jar" />
+    </item>
+    <item
+        jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="cb6fab7a71fa9ec1f483d44c5fca65ab469d8aca">
+        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-cf8dd76d2aed81f5486bb3c3616ae2d7b31ff527.jar" />
+    </item>
+    <item
+        jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="c5cafb324568d954780abb858c25db7ce675ab3c">
+        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-675a3b4728874cb087a90916f4437eedc3f2865c.jar" />
+    </item>
+    <item
+        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="325788a04b436a0bccbc5b4c54cf0f12ebdcbd2d">
+        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-b189800a542753b27fa79321e1864865bf7d044e.jar" />
+    </item>
+    <item
+        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-06822a6b5ae5651ecb46d2b8ad242037ac375c4c.jar" />
+    </item>
+    <item
+        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="dcb5b75baf05d92e61d5706737200ee55949f97b">
+        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-0451741a2e70fadc0220e962369be8cfa8fd96f9.jar" />
+    </item>
+    <item
+        jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="c0c912d58c9468b1f9d9769c8975afdf2c85d681">
+        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-e39bcee44ae62d2e859e24c5e86139d62819beff.jar" />
+    </item>
+    <item
+        jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="98137c4d12c50923f5809852b1ef4d1c4e162081">
+        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-1d322fa6a7f44df807e113ebe2cca5072d89b670.jar" />
+    </item>
+    <item
+        jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="adebe28e0c0c05d34a3bfd76f3275bf4d8ff87b6">
+        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-7edcd963d3cc557be47948ff64c0b6fc7a5dacc3.jar" />
+    </item>
+    <item
+        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="3aed37c38c56679602255dd72ef356da5d327cda">
+        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-2f12c524f2fbbfc64c5b642dc99546f9d9830113.jar" />
+    </item>
+    <item
+        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="d61920aba361832a9545a43fa8c9453eb02f18f7">
+        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-7e3a18b2e7299c1d5772c641cd919d3da81ef16a.jar" />
+    </item>
+    <item
+        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-a3ddd79a8e9bec0be0b5afb862124221216c1dcf.jar" />
+    </item>
+    <item
+        jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="77a9dcb5f8b1dba36aacaa9c150eb0942dbea158">
+        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-44b84d021dab7f6e516fdc8dc674f73323f21f5e.jar" />
+    </item>
+    <item
+        jar="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="c756d14e99d39471e99013a1e8fd2f3813ed42bf">
+        <dex dex="C:\Users\edgarulises\AndroidStudioProjects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-00bdb996edd24034d731508d64fb4bc74ee827f8.jar" />
+    </item>
+    <item
+        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="041d93cf0533591c29d1d7263b2fa114dbfb20bd">
+        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-4e6ea1fbda1bac8197cf94cb04b053ed1824fa5c.jar" />
+    </item>
+    <item
+        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="9cf8c0ef60847621c7ad00b4f78dbfc9daba4af2">
+        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-8ab7640a81b37f783c6c643043d68da8b8a163a0.jar" />
+    </item>
+    <item
+        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="b92002cb2f0e11a226ac5bac6dff1dc2a9d0b774">
+        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-b1a567ca5d52b98c226a291ed97aa0bf787b334a.jar" />
+    </item>
+    <item
+        jar="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="C:\Users\edgarulises\Documents\Android Studio proyects\CampusCUCEI_V2\app\build\intermediates\pre-dexed\debug\classes-7ad54432eb990b2b64117cf8bb310ee648bb5a16.jar" />
     </item>
 
 </items>

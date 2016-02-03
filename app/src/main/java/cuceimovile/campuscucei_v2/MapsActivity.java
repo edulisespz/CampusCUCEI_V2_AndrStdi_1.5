@@ -1,11 +1,24 @@
 package cuceimovile.campuscucei_v2;
 
+import android.Manifest;
+import android.app.Activity;
+import android.content.Context;
+import android.content.pm.PackageManager;
 import android.graphics.Color;
+import android.location.Location;
+import android.location.LocationListener;
+import android.location.LocationManager;
+import android.net.Uri;
 import android.os.AsyncTask;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
+import android.support.v4.content.ContextCompat;
 import android.util.Log;
 
+import com.google.android.gms.appindexing.Action;
+import com.google.android.gms.appindexing.AppIndex;
+import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
@@ -39,40 +52,40 @@ import cuceimovile.campuscucei_v2.mapsUtil.Vertex;
 //http://wptrafficanalyzer.in/blog/route-between-two-locations-with-waypoints-in-google-map-android-api-v2/
 
 
-public class MapsActivity extends FragmentActivity implements OnMapReadyCallback,GoogleMap.OnMarkerClickListener {
+public class MapsActivity extends FragmentActivity implements OnMapReadyCallback, GoogleMap.OnMarkerClickListener {
 
 
     LatLng routeAC[] = {};
 
     ///////////////////////////////////////////////////////////////////////////////////////////////
     ///////////////////////////////////////////////////////////////////////////////////////////////
-    static final LatLng CUCEI = new LatLng(20.656754, -103.325364); 	// CUCEI
-    static final LatLng EDIF_A = new LatLng(20.653969, -103.325785);	// Rectoría
-    static final LatLng EDIF_CID = new LatLng(20.654839, -103.325525);	// CID, Biblioteca
-    static final LatLng EDIF_AL = new LatLng(20.656449, -103.325216);	// Alpha
-    static final LatLng EDIF_BE = new LatLng(20.656251, -103.325208);	// Beta
-    static final LatLng EDIF_E = new LatLng(20.655559, -103.325930);	// E
-    static final LatLng EDIF_F = new LatLng(20.655850, -103.325929);	// F
-    static final LatLng EDIF_G = new LatLng(20.655858, -103.326957); 	// G
-    static final LatLng EDIF_H = new LatLng(20.656023, -103.326316); 	// H
-    static final LatLng EDIF_I = new LatLng(20.656078, -103.325584); 	// I
-    static final LatLng EDIF_J = new LatLng(20.656224, -103.325962); 	// J
-    static final LatLng EDIF_K = new LatLng(20.656375, -103.325994); 	// K
-    static final LatLng EDIF_L = new LatLng(20.656774, -103.325214); 	// L
-    static final LatLng EDIF_M = new LatLng(20.656656, -103.326163);	// M
-    static final LatLng EDIF_N = new LatLng(20.656952, -103.326177); 	// N
-    static final LatLng EDIF_O = new LatLng(20.657321, -103.326123); 	// O
-    static final LatLng EDIF_P = new LatLng(20.657328, -103.325361);	// P
-    static final LatLng EDIF_Q = new LatLng(20.657612, -103.324951); 	// Q
-    static final LatLng EDIF_R = new LatLng(20.657677, -103.325632); 	// R
-    static final LatLng EDIF_S = new LatLng(20.657582, -103.326206); 	// S -
-    static final LatLng EDIF_T = new LatLng(20.657881, -103.325469); 	// T
-    static final LatLng EDIF_U = new LatLng(20.658074, -103.325461); 	// U
-    static final LatLng EDIF_V = new LatLng(20.658302, -103.326233);	// V
-    static final LatLng EDIF_V2 = new LatLng(20.658104, -103.326230); 	// V2
-    static final LatLng EDIF_W = new LatLng(20.658061, -103.326912); 	// W
-    static final LatLng EDIF_X = new LatLng(20.658259, -103.326939);	// X
-    static final LatLng EDIF_Z = new LatLng(20.657246, -103.327684); 	// Z
+    static final LatLng CUCEI = new LatLng(20.656754, -103.325364);    // CUCEI
+    static final LatLng EDIF_A = new LatLng(20.653969, -103.325785);    // Rectoría
+    static final LatLng EDIF_CID = new LatLng(20.654839, -103.325525);    // CID, Biblioteca
+    static final LatLng EDIF_AL = new LatLng(20.656449, -103.325216);    // Alpha
+    static final LatLng EDIF_BE = new LatLng(20.656251, -103.325208);    // Beta
+    static final LatLng EDIF_E = new LatLng(20.655559, -103.325930);    // E
+    static final LatLng EDIF_F = new LatLng(20.655850, -103.325929);    // F
+    static final LatLng EDIF_G = new LatLng(20.655858, -103.326957);    // G
+    static final LatLng EDIF_H = new LatLng(20.656023, -103.326316);    // H
+    static final LatLng EDIF_I = new LatLng(20.656078, -103.325584);    // I
+    static final LatLng EDIF_J = new LatLng(20.656224, -103.325962);    // J
+    static final LatLng EDIF_K = new LatLng(20.656375, -103.325994);    // K
+    static final LatLng EDIF_L = new LatLng(20.656774, -103.325214);    // L
+    static final LatLng EDIF_M = new LatLng(20.656656, -103.326163);    // M
+    static final LatLng EDIF_N = new LatLng(20.656952, -103.326177);    // N
+    static final LatLng EDIF_O = new LatLng(20.657321, -103.326123);    // O
+    static final LatLng EDIF_P = new LatLng(20.657328, -103.325361);    // P
+    static final LatLng EDIF_Q = new LatLng(20.657612, -103.324951);    // Q
+    static final LatLng EDIF_R = new LatLng(20.657677, -103.325632);    // R
+    static final LatLng EDIF_S = new LatLng(20.657582, -103.326206);    // S -
+    static final LatLng EDIF_T = new LatLng(20.657881, -103.325469);    // T
+    static final LatLng EDIF_U = new LatLng(20.658074, -103.325461);    // U
+    static final LatLng EDIF_V = new LatLng(20.658302, -103.326233);    // V
+    static final LatLng EDIF_V2 = new LatLng(20.658104, -103.326230);    // V2
+    static final LatLng EDIF_W = new LatLng(20.658061, -103.326912);    // W
+    static final LatLng EDIF_X = new LatLng(20.658259, -103.326939);    // X
+    static final LatLng EDIF_Z = new LatLng(20.657246, -103.327684);    // Z
 
     LatLng pointInitial = new LatLng(20.656754, -103.325364);
     LatLng pointFinal = new LatLng(20.656754, -103.325364);
@@ -88,17 +101,15 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             new LatLng(20.658061, -103.326912), new LatLng(20.658259, -103.326939), new LatLng(20.657246, -103.327684)};
 
 
-
     Marker edif_a, edif_al, edif_be, edif_cid, edif_e, edif_f, edif_g,
             edif_h, edif_i, edif_j, edif_k, edif_l, edif_m, edif_n, edif_o,
             edif_p, edif_q, edif_r, edif_s, edif_t, edif_u, edif_v, edif_v2,
             edif_w, edif_x, edif_z;
 
 
-
-
     Polyline line;
 
+    LatLng Post_init;
 
 
     /// rute drawing data
@@ -108,14 +119,15 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private List<Edge> edges;
 
 
-
-
     ///
 
 
-
-
     private GoogleMap mMap;
+    /**
+     * ATTENTION: This was auto-generated to implement the App Indexing API.
+     * See https://g.co/AppIndexing/AndroidStudio for more information.
+     */
+    private GoogleApiClient client;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -127,117 +139,173 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mapFragment.getMapAsync(this);
 
 
-
-
-
         nodes = new ArrayList<Vertex>();
         edges = new ArrayList<Edge>();
 
 
-        Vertex location = new Vertex("edifA", "A",EDIF_A);
+        Vertex location = new Vertex("edifA", "A", EDIF_A);
         nodes.add(location);
 
-        location = new Vertex("edifCID","CID",EDIF_CID);
+        location = new Vertex("edifCID", "CID", EDIF_CID);
         nodes.add(location);
 
-        location = new Vertex("edifALF","ALFA",EDIF_AL);
+        location = new Vertex("edifALF", "ALFA", EDIF_AL);
         nodes.add(location);
 
-        location = new Vertex("edifBET","BETA",EDIF_BE);
+        location = new Vertex("edifBET", "BETA", EDIF_BE);
         nodes.add(location);
 
-        location = new Vertex("edifE","E",EDIF_E);
+        location = new Vertex("edifE", "E", EDIF_E);
         nodes.add(location);
 
-        location = new Vertex("edifF","F",EDIF_F);
+        location = new Vertex("edifF", "F", EDIF_F);
         nodes.add(location);
 
-        location = new Vertex("edifG","G",EDIF_G);
+        location = new Vertex("edifG", "G", EDIF_G);
         nodes.add(location);
 
-        location = new Vertex("edifH","H",EDIF_H);
+        location = new Vertex("edifH", "H", EDIF_H);
         nodes.add(location);
 
-        location = new Vertex("edifI","I",EDIF_I);
+        location = new Vertex("edifI", "I", EDIF_I);
         nodes.add(location);
 
-        location = new Vertex("edifJ","J",EDIF_J);
+        location = new Vertex("edifJ", "J", EDIF_J);
         nodes.add(location);
 
-        location = new Vertex("edifK","K",EDIF_K);
+        location = new Vertex("edifK", "K", EDIF_K);
         nodes.add(location);
 
-        location = new Vertex("edifL","L",EDIF_L);
+        location = new Vertex("edifL", "L", EDIF_L);
         nodes.add(location);
 
-        location = new Vertex("edifM","M",EDIF_M);
+        location = new Vertex("edifM", "M", EDIF_M);
         nodes.add(location);
 
-        location = new Vertex("edifN","N",EDIF_N);
+        location = new Vertex("edifN", "N", EDIF_N);
         nodes.add(location);
 
-        location = new Vertex("edifO","O",EDIF_O);
+        location = new Vertex("edifO", "O", EDIF_O);
         nodes.add(location);
 
-        location = new Vertex("edifP","P",EDIF_P);
+        location = new Vertex("edifP", "P", EDIF_P);
         nodes.add(location);
 
-        location = new Vertex("edifQ","Q",EDIF_Q);
+        location = new Vertex("edifQ", "Q", EDIF_Q);
         nodes.add(location);
 
-        location = new Vertex("edifR","R",EDIF_R);
+        location = new Vertex("edifR", "R", EDIF_R);
         nodes.add(location);
 
-        location = new Vertex("edifS","S",EDIF_S);
+        location = new Vertex("edifS", "S", EDIF_S);
         nodes.add(location);
 
-        location = new Vertex("edifT","T",EDIF_T);
+        location = new Vertex("edifT", "T", EDIF_T);
         nodes.add(location);
 
-        location = new Vertex("edifU","U",EDIF_U);
+        location = new Vertex("edifU", "U", EDIF_U);
         nodes.add(location);
 
-        location = new Vertex("edifV","V",EDIF_V);
+        location = new Vertex("edifV", "V", EDIF_V);
         nodes.add(location);
 
-        location = new Vertex("edifV2","V2",EDIF_V2);
+        location = new Vertex("edifV2", "V2", EDIF_V2);
         nodes.add(location);
 
-        location = new Vertex("edifW","W",EDIF_W);
+        location = new Vertex("edifW", "W", EDIF_W);
         nodes.add(location);
 
-        location = new Vertex("edifX","X",EDIF_X);
+        location = new Vertex("edifX", "X", EDIF_X);
         nodes.add(location);
 
-        location = new Vertex("edifZ","Z",EDIF_Z);
+        location = new Vertex("edifZ", "Z", EDIF_Z);
         nodes.add(location);
 
 
+        // ATTENTION: This was auto-generated to implement the App Indexing API.
+        // See https://g.co/AppIndexing/AndroidStudio for more information.
+        client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
 
 
 
+        //cosas del gps
+
+        // Acquire a reference to the system Location Manager
+        LocationManager locationManager = (LocationManager) this.getSystemService(Context.LOCATION_SERVICE);
+
+        // Define a listener that responds to location updates
+        LocationListener locationListener = new LocationListener() {
+
+            public void onLocationChanged(Location location) {
+                // Called when a new location is found by the network location provider.
+                Post_init= new LatLng(location.getLatitude(), location.getLongitude());
 
 
+            }
+
+            public void onStatusChanged(String provider, int status, Bundle extras) {
+            }
+
+            public void onProviderEnabled(String provider) {
+            }
+
+            public void onProviderDisabled(String provider) {
+            }
+        };
+
+        /*
+        // Here, thisActivity is the current activity
+        if (ContextCompat.checkSelfPermission(this,
+                Manifest.permission.ACCESS_FINE_LOCATION)
+                != PackageManager.PERMISSION_GRANTED) {
+
+            // Should we show an explanation?
+            if (ActivityCompat.shouldShowRequestPermissionRationale(this,
+                    Manifest.permission.ACCESS_FINE_LOCATION)) {
+
+                // Show an expanation to the user *asynchronously* -- don't block
+                // this thread waiting for the user's response! After the user
+                // sees the explanation, try again to request the permission.
+
+            } else {
+
+                // No explanation needed, we can request the permission.
+
+                ActivityCompat.requestPermissions(this,
+                        new String[]{Manifest.permission.ACCESS_FINE_LOCATION},
+                        MY_PERMISSIONS_REQUEST_READ_CONTACTS);
+
+                // MY_PERMISSIONS_REQUEST_READ_CONTACTS is an
+                // app-defined int constant. The callback method gets the
+                // result of the request.
+            }
+        }
+
+        */
+
+        //TODO PERMISOS
+
+        //int permissionCheck = ContextCompat.checkSelfPermission(this,
+          //      Manifest.permission.ACCESS_FINE_LOCATION);
+
+        // Register the listener with the Location Manager to receive location updates
+
+        locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0, 0, locationListener);
 
     }
 
 
-
-
-
-
     private void addLane2Way(String laneId, int sourceLocNo, int destLocNo,
                              int distance) {
-        Edge lane = new Edge(laneId,nodes.get(sourceLocNo), nodes.get(destLocNo), distance);
-        Edge lane2=new Edge(laneId+"_p", nodes.get(destLocNo),nodes.get(sourceLocNo),distance);
+        Edge lane = new Edge(laneId, nodes.get(sourceLocNo), nodes.get(destLocNo), distance);
+        Edge lane2 = new Edge(laneId + "_p", nodes.get(destLocNo), nodes.get(sourceLocNo), distance);
         edges.add(lane);
         edges.add(lane2);
     }
 
 
-
     private void addLane(String laneId, int sourceLocNo, int destLocNo, int duration) {
-        Edge lane = new Edge(laneId,nodes.get(sourceLocNo), nodes.get(destLocNo), duration);
+        Edge lane = new Edge(laneId, nodes.get(sourceLocNo), nodes.get(destLocNo), duration);
         edges.add(lane);
     }
 
@@ -261,8 +329,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         }
 
         googleMap.setOnMarkerClickListener(this);// for the clic event
-
-
 
 
         // Add a marker in cucei and move the camera
@@ -407,21 +473,18 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 .icon(bitmapDescriptorBlue));
 
 
-
-
     }
-
-
 
 
     public boolean onMarkerClick(final Marker marker) { //dont know why doesnt  works
 
 
         LatLng EdifFinal = null;
-        LatLng Post_init = EDIF_G; //change later
 
-        if (marker.equals(edif_a))
-        {
+        // if(Post_init==null) { Post_init = EDIF_G; } //change later
+
+
+        if (marker.equals(edif_a)) {
             /*
             mMap.addPolyline(new PolylineOptions()
                     .add(EDIF_E , EDIF_A)
@@ -433,138 +496,117 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             // Getting URL to the Google Directions API
 
 
-            EdifFinal=EDIF_A;
+            EdifFinal = EDIF_A;
 
         }
 
-        if (marker.equals(edif_cid))
-        {
-            EdifFinal=EDIF_CID;
+        if (marker.equals(edif_cid)) {
+            EdifFinal = EDIF_CID;
         }
 
-        if (marker.equals(edif_al))
-        {
-            EdifFinal=EDIF_AL;
+        if (marker.equals(edif_al)) {
+            EdifFinal = EDIF_AL;
         }
 
-        if (marker.equals(edif_be))
-        {
-            EdifFinal=EDIF_BE;
+        if (marker.equals(edif_be)) {
+            EdifFinal = EDIF_BE;
         }
 
-        if (marker.equals(edif_e))
-        {
-            EdifFinal=EDIF_E;
+        if (marker.equals(edif_e)) {
+            EdifFinal = EDIF_E;
         }
 
-        if (marker.equals(edif_f))
-        {
-            EdifFinal=EDIF_F;
+        if (marker.equals(edif_f)) {
+            EdifFinal = EDIF_F;
         }
 
-        if (marker.equals(edif_g))
-        {
-            EdifFinal=EDIF_G;
+        if (marker.equals(edif_g)) {
+            EdifFinal = EDIF_G;
         }
 
-        if (marker.equals(edif_h))
-        {
-            EdifFinal=EDIF_H;
+        if (marker.equals(edif_h)) {
+            EdifFinal = EDIF_H;
         }
 
-        if (marker.equals(edif_i))
-        {
-            EdifFinal=EDIF_I;
+        if (marker.equals(edif_i)) {
+            EdifFinal = EDIF_I;
         }
 
-        if (marker.equals(edif_j))
-        {
-            EdifFinal=EDIF_J;
+        if (marker.equals(edif_j)) {
+            EdifFinal = EDIF_J;
         }
 
-        if (marker.equals(edif_k))
-        {
-            EdifFinal=EDIF_K;
+        if (marker.equals(edif_k)) {
+            EdifFinal = EDIF_K;
         }
 
-        if (marker.equals(edif_l))
-        {
-            EdifFinal=EDIF_L;
+        if (marker.equals(edif_l)) {
+            EdifFinal = EDIF_L;
         }
 
-        if (marker.equals(edif_m))
-        {
-            EdifFinal=EDIF_M;
+        if (marker.equals(edif_m)) {
+            EdifFinal = EDIF_M;
         }
 
-        if (marker.equals(edif_n))
-        {
-            EdifFinal=EDIF_N;
+        if (marker.equals(edif_n)) {
+            EdifFinal = EDIF_N;
         }
 
-        if (marker.equals(edif_o))
-        {
-            EdifFinal=EDIF_O;
+        if (marker.equals(edif_o)) {
+            EdifFinal = EDIF_O;
         }
 
-        if (marker.equals(edif_p))
-        {
-            EdifFinal=EDIF_P;
+        if (marker.equals(edif_p)) {
+            EdifFinal = EDIF_P;
         }
 
-        if (marker.equals(edif_q))
-        {
-            EdifFinal=EDIF_Q;
+        if (marker.equals(edif_q)) {
+            EdifFinal = EDIF_Q;
         }
 
-        if (marker.equals(edif_r))
-        {
-            EdifFinal=EDIF_R;
+        if (marker.equals(edif_r)) {
+            EdifFinal = EDIF_R;
         }
 
-        if (marker.equals(edif_s))
-        {
-            EdifFinal=EDIF_S;
+        if (marker.equals(edif_s)) {
+            EdifFinal = EDIF_S;
         }
 
-        if (marker.equals(edif_t))
-        {
-            EdifFinal=EDIF_T;
+        if (marker.equals(edif_t)) {
+            EdifFinal = EDIF_T;
         }
 
-        if (marker.equals(edif_u))
-        {
-            EdifFinal=EDIF_U;
+        if (marker.equals(edif_u)) {
+            EdifFinal = EDIF_U;
         }
 
-        if (marker.equals(edif_v))
-        {
-            EdifFinal=EDIF_V;
+        if (marker.equals(edif_v)) {
+            EdifFinal = EDIF_V;
         }
 
-        if (marker.equals(edif_v2))
-        {
-            EdifFinal=EDIF_V2;
+        if (marker.equals(edif_v2)) {
+            EdifFinal = EDIF_V2;
         }
 
-        if (marker.equals(edif_w))
-        {
-            EdifFinal=EDIF_W;
+        if (marker.equals(edif_w)) {
+            EdifFinal = EDIF_W;
         }
 
-        if (marker.equals(edif_x))
-        {
-            EdifFinal=EDIF_X;
+        if (marker.equals(edif_x)) {
+            EdifFinal = EDIF_X;
         }
 
-        if (marker.equals(edif_z))
-        {
-            EdifFinal=EDIF_Z;
+        if (marker.equals(edif_z)) {
+            EdifFinal = EDIF_Z;
         }
 
 
+        // TODO: PONER AQUI LO DEL GPS la bandera
 
-        if(EdifFinal!=null) {
+
+
+
+        if (EdifFinal != null) {
 
 
             String url = getDirectionsUrl(Post_init, EdifFinal);
@@ -578,49 +620,45 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         }
 
 
-
-
-
-
-
         return false;
     }
 
 
-
-    private String getDirectionsUrl(LatLng origin,LatLng dest){
+    private String getDirectionsUrl(LatLng origin, LatLng dest) {
 
         // Origin of route
-        String str_origin = "origin="+origin.latitude+","+origin.longitude;
+        String str_origin = "origin=" + origin.latitude + "," + origin.longitude;
 
         // Destination of route
-        String str_dest = "destination="+dest.latitude+","+dest.longitude;
+        String str_dest = "destination=" + dest.latitude + "," + dest.longitude;
 
-        String Mode= "mode=walking";
+        String Mode = "mode=walking";
 
 
         String KEY = "AIzaSyAbZ2FEYLPlqyUcvei2h_wUOjqMEeMDshY";// kew for paths
 
         // Building the parameters to the web service
-        String parameters = str_origin+"&"+str_dest+"&"+Mode+"&"+KEY;
+        String parameters = str_origin + "&" + str_dest + "&" + Mode + "&" + KEY;
 
         // Output format
         String output = "json";
 
         // Building the url to the web service
-        String url = "https://maps.googleapis.com/maps/api/directions/"+output+"?"+parameters;
+        String url = "https://maps.googleapis.com/maps/api/directions/" + output + "?" + parameters;
 
-        Log.e("Json_Url: ",url);
+        Log.e("Json_Url: ", url);
 
         return url;
     }
 
-    /** A method to download json data from url */
+    /**
+     * A method to download json data from url
+     */
     private String downloadUrl(String strUrl) throws IOException {
         String data = "";
         InputStream iStream = null;
         HttpURLConnection urlConnection = null;
-        try{
+        try {
             URL url = new URL(strUrl);
 
             // Creating an http connection to communicate with url
@@ -634,10 +672,10 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
             BufferedReader br = new BufferedReader(new InputStreamReader(iStream));
 
-            StringBuffer sb  = new StringBuffer();
+            StringBuffer sb = new StringBuffer();
 
             String line = "";
-            while( ( line = br.readLine())  != null){
+            while ((line = br.readLine()) != null) {
                 sb.append(line);
             }
 
@@ -645,17 +683,54 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
             br.close();
 
-        }catch(Exception e){
+        } catch (Exception e) {
             Log.d("Exception url", e.toString());
-        }finally{
+        } finally {
             iStream.close();
             urlConnection.disconnect();
         }
         return data;
     }
 
+    @Override
+    public void onStart() {
+        super.onStart();
 
+        // ATTENTION: This was auto-generated to implement the App Indexing API.
+        // See https://g.co/AppIndexing/AndroidStudio for more information.
+        client.connect();
+        Action viewAction = Action.newAction(
+                Action.TYPE_VIEW, // TODO: choose an action type.
+                "Maps Page", // TODO: Define a title for the content shown.
+                // TODO: If you have web page content that matches this app activity's content,
+                // make sure this auto-generated web page URL is correct.
+                // Otherwise, set the URL to null.
+                Uri.parse("http://host/path"),
+                // TODO: Make sure this auto-generated app deep link URI is correct.
+                Uri.parse("android-app://cuceimovile.campuscucei_v2/http/host/path")
+        );
+        AppIndex.AppIndexApi.start(client, viewAction);
+    }
 
+    @Override
+    public void onStop() {
+        super.onStop();
+
+        // ATTENTION: This was auto-generated to implement the App Indexing API.
+        // See https://g.co/AppIndexing/AndroidStudio for more information.
+        Action viewAction = Action.newAction(
+                Action.TYPE_VIEW, // TODO: choose an action type.
+                "Maps Page", // TODO: Define a title for the content shown.
+                // TODO: If you have web page content that matches this app activity's content,
+                // make sure this auto-generated web page URL is correct.
+                // Otherwise, set the URL to null.
+                Uri.parse("http://host/path"),
+                // TODO: Make sure this auto-generated app deep link URI is correct.
+                Uri.parse("android-app://cuceimovile.campuscucei_v2/http/host/path")
+        );
+        AppIndex.AppIndexApi.end(client, viewAction);
+        client.disconnect();
+    }
 
 
     // Fetches data from url passed
@@ -669,11 +744,11 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
             String data = "";
 
-            try{
+            try {
                 // Fetching the data from web service
                 data = downloadUrl(url[0]);
-            }catch(Exception e){
-                Log.d("Background Task",e.toString());
+            } catch (Exception e) {
+                Log.d("Background Task", e.toString());
             }
             return data;
         }
@@ -691,8 +766,10 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         }
     }
 
-    /** A class to parse the Google Places in JSON format */
-    private class ParserTask extends AsyncTask<String, Integer, List<List<HashMap<String,String>>> >{
+    /**
+     * A class to parse the Google Places in JSON format
+     */
+    private class ParserTask extends AsyncTask<String, Integer, List<List<HashMap<String, String>>>> {
 
         // Parsing the data in non-ui thread
         @Override
@@ -701,13 +778,13 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             JSONObject jObject;
             List<List<HashMap<String, String>>> routes = null;
 
-            try{
+            try {
                 jObject = new JSONObject(jsonData[0]);
                 DirectionsJSONParser parser = new DirectionsJSONParser();
 
                 // Starts parsing data
                 routes = parser.parse(jObject);
-            }catch(Exception e){
+            } catch (Exception e) {
                 e.printStackTrace();
             }
             return routes;
@@ -721,7 +798,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             PolylineOptions lineOptions = null;
 
             // Traversing through all the routes
-            for(int i=0;i<result.size();i++){
+            for (int i = 0; i < result.size(); i++) {
                 points = new ArrayList<LatLng>();
                 lineOptions = new PolylineOptions();
 
@@ -729,8 +806,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 List<HashMap<String, String>> path = result.get(i);
 
                 // Fetching all the points in i-th route
-                for(int j=0;j<path.size();j++){
-                    HashMap<String,String> point = path.get(j);
+                for (int j = 0; j < path.size(); j++) {
+                    HashMap<String, String> point = path.get(j);
 
                     double lat = Double.parseDouble(point.get("lat"));
                     double lng = Double.parseDouble(point.get("lng"));
@@ -745,11 +822,15 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 lineOptions.color(Color.RED);
             }
 
+            if (line != null) {
+                line.remove();
+                Log.e("line", "removed");
+            }
+
             // Drawing polyline in the Google Map for the i-th route
-            mMap.addPolyline(lineOptions);
+            line = mMap.addPolyline(lineOptions);
         }
     }
-
 
 
 }
